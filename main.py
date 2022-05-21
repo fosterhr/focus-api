@@ -24,5 +24,5 @@ class API(object):
 
 if __name__ == "__main__":
     api = API()
-    api.login("8g.2r", "F3tusd3l3tus")
+    api.login("username", "password")
     print(api.grades())
